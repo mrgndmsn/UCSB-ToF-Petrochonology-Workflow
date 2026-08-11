@@ -18,6 +18,9 @@ For the geochemical map analysis script:
 
 Prior to modeling, raw data is processed through NuQuant and exported as a .VIT file to be imported and processed using Trace Elements and U-Pb Geochronology data reduction schemes in iolite4.11. Maps used are exported as matrix-pixel maps as exported from iolite4.11 as .CSVs.  
 
+**"Isotope Addition.py"**
+Is the DRS used as summarized in Supplemental Materials. Copy to Data Reduction Schemes in Iolite plugins to use. 
+
 * Maps can be imported as DAT, GRD, CSV, TXT, XLSX, or XLS files.
 * Data can be imported as individual matrix files or as tables containing X, Y, and one or more measured channels.
 * Maps from the same sample can be assigned to separate minerals and analytical runs during import.
